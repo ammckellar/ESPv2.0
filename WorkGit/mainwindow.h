@@ -16,6 +16,9 @@ public:
     MainWindow(QWidget *parent = 0);
     ~MainWindow();    
 
+protected:
+    //virtual void closeEvent(QCloseEvent *e);
+
 private:
     Ui::MainWindow *ui;
     QString fileName;
@@ -25,7 +28,7 @@ private:
 
 public slots:
     void fileNew();
-    void fileOpen();
+    void fileOpen();    
     void about();
 
 

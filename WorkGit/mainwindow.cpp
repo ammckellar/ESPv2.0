@@ -28,16 +28,14 @@
 #ifdef Q_WS_MAC
 const QString rsrcPath = ":/images/mac";
 #else
-const QString rsrcPath = ":/home/alex/Desktop";
+const QString rsrcPath = ":/images/win";
 #endif
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
 {
-    ui->setupUi(this);
-
+    ui->setupUi(this);    
     setupFileActions();
-
 
     QString s1 = "asdf", s2 = "qwewrty";
     const QStringList ql = (QStringList() << s1 << s2);
@@ -63,7 +61,7 @@ void MainWindow::setupFileActions()
 
     a = new QAction(QIcon(rsrcPath + "/filenew.png"), tr("&New"), this);
     a->setShortcut(QKeySequence::New);
-    connect(a, SIGNAL(triggered()), this, SLOT(newFile()));
+    connect(a, SIGNAL(triggered()), this, SLOT(fileNew()));
     menu->addAction(a);
 
     a = new QAction(QIcon(rsrcPath + "/fileopen.png"), tr("&Open"), this);
@@ -73,6 +71,10 @@ void MainWindow::setupFileActions()
 
     menu->addSeparator();
 
+    a = new QAction(tr("&Quit"), this);
+    a->setShortcut(Qt::CTRL + Qt::Key_Q);
+    connect(a, SIGNAL(triggered()), qApp, SLOT(quit()));
+    menu->addAction(a);
 }
 
 void MainWindow::fileNew()
@@ -96,7 +98,7 @@ bool MainWindow::load(const QString &f)
     if (!file.open(QFile::ReadOnly))
         return false;
 
-    QByteArray data = file.readAll();
+    QByteArray data = file.readAll();    
     QTextCodec *codec = Qt::codecForHtml(data);
     QString str = codec->toUnicode(data);
     if (Qt::mightBeRichText(str)) {
