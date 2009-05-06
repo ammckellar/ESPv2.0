@@ -57,8 +57,8 @@
   <valuemap type="QVariantMap" >
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList" >
-    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-8VE5lySHd3,guid=c6058dac189503ad1132718849fddf0a</value>
-    <value type="QString" >DESKTOP_AUTOSTART_ID=10342fc1d2df0157a7124137447721643900000029860018</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-YC7j4yACXM,guid=33dbf1fa8caa3c9802f03b7c49ff6a19</value>
+    <value type="QString" >DESKTOP_AUTOSTART_ID=10ab8006df26fdbfa9124147561222282900000031660018</value>
     <value type="QString" >DESKTOP_SESSION=default.desktop</value>
     <value type="QString" >DESKTOP_STARTUP_ID=</value>
     <value type="QString" >DISPLAY=:0.0</value>
@@ -66,8 +66,8 @@
     <value type="QString" >GDM_LANG=en_US.UTF-8</value>
     <value type="QString" >GDM_XSERVER_LOCATION=local</value>
     <value type="QString" >GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-Yu8GVL/socket</value>
-    <value type="QString" >GPG_AGENT_INFO=/tmp/seahorse-aRumdN/S.gpg-agent:3137:1</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-L5kqbO/socket</value>
+    <value type="QString" >GPG_AGENT_INFO=/tmp/seahorse-vgvVyK/S.gpg-agent:3249:1</value>
     <value type="QString" >GTK_MODULES=canberra-gtk-module</value>
     <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/alex/.gtkrc-1.2-gnome2</value>
     <value type="QString" >HOME=/home/alex</value>
@@ -78,16 +78,16 @@
     <value type="QString" >PATH=/home/alex/qtsdk-2009.02/qt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games</value>
     <value type="QString" >PWD=/home/alex</value>
     <value type="QString" >QTDIR=/home/alex/qtsdk-2009.02/qt</value>
-    <value type="QString" >SESSION_MANAGER=local/alex-laptop:/tmp/.ICE-unix/2986</value>
+    <value type="QString" >SESSION_MANAGER=local/alex-laptop:/tmp/.ICE-unix/3166</value>
     <value type="QString" >SHELL=/bin/bash</value>
-    <value type="QString" >SSH_AGENT_PID=3110</value>
-    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-Yu8GVL/socket.ssh</value>
+    <value type="QString" >SSH_AGENT_PID=3221</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-L5kqbO/socket.ssh</value>
     <value type="QString" >USER=alex</value>
     <value type="QString" >USERNAME=alex</value>
     <value type="QString" >WINDOWPATH=7</value>
     <value type="QString" >XAUTHORITY=/home/alex/.Xauthority</value>
     <value type="QString" >XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/usr/share/gdm/</value>
-    <value type="QString" >XDG_SESSION_COOKIE=c0a70e464a8e255f93305b6a49f8dff1-1241374473.290029-1541034429</value>
+    <value type="QString" >XDG_SESSION_COOKIE=c0a70e464a8e255f93305b6a49f8dff1-1241475608.322022-1629243804</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList" >
     <value type="QString" >/home/alex/Desktop/ESPv2.0/WorkGit/WorkGit.pro</value>
@@ -107,8 +107,8 @@
   <valuemap type="QVariantMap" >
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList" >
-    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-8VE5lySHd3,guid=c6058dac189503ad1132718849fddf0a</value>
-    <value type="QString" >DESKTOP_AUTOSTART_ID=10342fc1d2df0157a7124137447721643900000029860018</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-YC7j4yACXM,guid=33dbf1fa8caa3c9802f03b7c49ff6a19</value>
+    <value type="QString" >DESKTOP_AUTOSTART_ID=10ab8006df26fdbfa9124147561222282900000031660018</value>
     <value type="QString" >DESKTOP_SESSION=default.desktop</value>
     <value type="QString" >DESKTOP_STARTUP_ID=</value>
     <value type="QString" >DISPLAY=:0.0</value>
@@ -116,8 +116,8 @@
     <value type="QString" >GDM_LANG=en_US.UTF-8</value>
     <value type="QString" >GDM_XSERVER_LOCATION=local</value>
     <value type="QString" >GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-Yu8GVL/socket</value>
-    <value type="QString" >GPG_AGENT_INFO=/tmp/seahorse-aRumdN/S.gpg-agent:3137:1</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-L5kqbO/socket</value>
+    <value type="QString" >GPG_AGENT_INFO=/tmp/seahorse-vgvVyK/S.gpg-agent:3249:1</value>
     <value type="QString" >GTK_MODULES=canberra-gtk-module</value>
     <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/alex/.gtkrc-1.2-gnome2</value>
     <value type="QString" >HOME=/home/alex</value>
@@ -128,16 +128,16 @@
     <value type="QString" >PATH=/home/alex/qtsdk-2009.02/qt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games</value>
     <value type="QString" >PWD=/home/alex</value>
     <value type="QString" >QTDIR=/home/alex/qtsdk-2009.02/qt</value>
-    <value type="QString" >SESSION_MANAGER=local/alex-laptop:/tmp/.ICE-unix/2986</value>
+    <value type="QString" >SESSION_MANAGER=local/alex-laptop:/tmp/.ICE-unix/3166</value>
     <value type="QString" >SHELL=/bin/bash</value>
-    <value type="QString" >SSH_AGENT_PID=3110</value>
-    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-Yu8GVL/socket.ssh</value>
+    <value type="QString" >SSH_AGENT_PID=3221</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-L5kqbO/socket.ssh</value>
     <value type="QString" >USER=alex</value>
     <value type="QString" >USERNAME=alex</value>
     <value type="QString" >WINDOWPATH=7</value>
     <value type="QString" >XAUTHORITY=/home/alex/.Xauthority</value>
     <value type="QString" >XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/usr/share/gdm/</value>
-    <value type="QString" >XDG_SESSION_COOKIE=c0a70e464a8e255f93305b6a49f8dff1-1241374473.290029-1541034429</value>
+    <value type="QString" >XDG_SESSION_COOKIE=c0a70e464a8e255f93305b6a49f8dff1-1241475608.322022-1629243804</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList" >
     <value type="QString" >-w</value>

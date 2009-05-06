@@ -30,8 +30,6 @@ public slots:
     void fileNew();
     void fileOpen();    
     void about();
-
-
 };
 
 #endif // MAINWINDOW_H

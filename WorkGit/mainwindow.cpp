@@ -43,7 +43,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->comboBox->addItems(ql);
     ui->comboBox->addItem("hopefully git will");
     ui->comboBox->addItem("eventually work!");
-
+    //ui->graphicsView->
 
 }
 
@@ -84,8 +84,9 @@ void MainWindow::fileNew()
 
 void MainWindow::fileOpen()
 {
-    QString fn = QFileDialog::getOpenFileName(this, tr("Open a File"),
-                 QString(), tr("Card Files (*.cd);;Text Files (*.txt *.rtf);;All Files (*)"));
+    QString fn = QFileDialog::getOpenFileName(this, tr("Open a File..."),
+                 QString(), tr("All Files(*)"));
+    //tr("Card Files (*.cd);;Text Files (*.txt *.rtf);;All Files (*)"));
     if (!fn.isEmpty())
         load(fn);
 }
@@ -98,7 +99,7 @@ bool MainWindow::load(const QString &f)
     if (!file.open(QFile::ReadOnly))
         return false;
 
-    QByteArray data = file.readAll();    
+    QByteArray data = file.readAll();
     QTextCodec *codec = Qt::codecForHtml(data);
     QString str = codec->toUnicode(data);
     if (Qt::mightBeRichText(str)) {
@@ -107,6 +108,15 @@ bool MainWindow::load(const QString &f)
         str = QString::fromLocal8Bit(data);
         ui->textEdit->setPlainText(str);
     }
+    QStringList compoundList = str.split("\n");
+    //Add each compound to the dropdown menu
+    foreach(QString compound, compoundList)
+       ui->comboBox->addItem(compound);
+
+
+//    QMessageBox msgBox;
+//    msgBox.setText(s.at(0));
+//    msgBox.exec();
 
     setCurrentFileName(f);
     return true;
